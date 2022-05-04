@@ -16,3 +16,24 @@ http://diendan.congdongcviet.com/threads/t25204::con-tro-ham-trong-c-cpp-functio
 1. có lẽ khi nói tới switch/if, thì tác giả muốn nói tới if/else trong switch/case.
 
 # Conclusion:
+
+
+
+
+
+
+
+#### FOR REMOTE REPO
+#### create a new repository on the command line
+echo "# Hunonic_training_v2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/dangcongtao/Hunonic_training_v2.git
+git push -u origin main
+
+#### push an existing repository from the command line
+git remote add origin https://github.com/dangcongtao/Hunonic_training_v2.git
+git branch -M main
+git push -u origin main
