@@ -40,5 +40,10 @@ int main() {
 
     arrange(&a);
     output(a);
+
+    /*deallocate */
+    free(a);
+    a = NULL;
+
     return 0;
 }

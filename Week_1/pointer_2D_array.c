@@ -64,6 +64,10 @@ int main() {
     output(a);
     
     /* deallowcate */
+    for (int i = 0 ; i < SIZE1 ; i ++) {
+        free(a[i]);
+    }
+    free(a);
 
     return 0;
 }
